@@ -1,0 +1,7 @@
+LIBRARY FittingZW3DAPI.dll
+EXPORTS
+	FittingInit
+	FittingExit
+	Fitting
+	FittingEO
+	FittingTerm

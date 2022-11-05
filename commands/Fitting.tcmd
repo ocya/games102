@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../schemas/Template.xsd">
+    <template name="Fitting">
+        <property name="echo_obj">FittingEO</property>
+        <property name="term">FittingTerm</property>
+        <property name="function">Fitting</property>
+        <parameters>
+            <parameter luid="2" type="point">
+                <property name="options">/curve/edge/face/point/text/,smart=CdSmtInpEval,</property>
+                <property name="list">1</property>
+            </parameter>
+            <parameter luid="1" type="continue"/>
+        </parameters>
+    </template>
+</templates>
